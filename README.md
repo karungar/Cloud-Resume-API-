@@ -1,6 +1,8 @@
 # Cloud-Resume-API-Challenge
 ## Introduction
 The project involves building and deploying a serverless API using AWS Lambda and DynamoDB and integrating it with GitHub actions. The goal is to construct an API that can serve resume data in JSON format.
+## Architectural Diagram
+https://lucid.app/publicSegments/view/87b0bfa9-5ddf-4b62-a643-49314dcf89c7/image.png
 ## Serverless Tier
 I used AWS Lambda and API Gateway for the serverless logic with Python as the runtime environment. The API Gateway exposes the HTTPS endpoint, and an API call (HTTPS request)made to the endpoint initiates the Lambda Function.
 (An IAM policy is defined to Using an IAM policy, you create a lambda function that cannot be initiated at all unless it is invoked by an API Gateway resource that you define Such policy can be defined using resource-based policy attached to the Dynamo DB table. The Lambda function assumes an execution role that allows it to access the DynamoDB table.
