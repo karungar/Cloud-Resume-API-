@@ -1,3 +1,13 @@
+# Backend configuration for Terraform Cloud 
+terraform {
+  cloud {
+    organization = "Shirubia"
+
+    workspaces {
+      name = "Cloud-Resume-API-"
+    }
+  }
+}
 terraform {
   required_providers {
     aws = {
