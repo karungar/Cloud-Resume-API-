@@ -140,11 +140,6 @@ resource "aws_api_gateway_stage" "stage" {
   rest_api_id = aws_api_gateway_rest_api.api.id
 }
 
-
-
-
-
-
 output "aws_api_gateway" {
   value = aws_api_gateway_rest_api.api.name
 }
