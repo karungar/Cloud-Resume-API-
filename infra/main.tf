@@ -23,29 +23,6 @@ provider "aws" {
     secret_key  =var.secret_key
 }    
 
-# resource "aws_s3_bucket" "bucket" {
-#   bucket          = "resumeexample"
-
-# }
-# resource "aws_s3_object" "object" {
-#   bucket          = aws_s3_bucket.bucket.id
-#   key             = "resume-table.json"
-#   source          = "${path.module}/../project_files/resume-table.json"
-#   etag            = filemd5("${path.module}/../project_files/resume-table.json")
-# }
-resource "aws_dynamodb_table" "resumeTable" {
-  name            = "resume"
-  billing_mode    = "PROVISIONED"
-  read_capacity   = 5
-  write_capacity  = 5
-
-  attribute {
-    name = "id"
-    type = "S"
-  }
-
-  hash_key = "id"
-}
 # Create an IAM Role for Lambda Execution
 resource "aws_iam_role" "lambda_role" {
   name               = "lambdaExecutionRole"
