@@ -2,7 +2,7 @@
 ## Introduction
 The project involves building and deploying an AWS serverless API using AWS Lambda and DynamoDB, and integrating it with GitHub actions. The lambda function retrieves resume data from a DynamoDB table and returns it in JSON format. GitHub actions are used as the CI/CD pipeline to enable automated deployment. Terraform Cloud is used for resource provisioning and management of the cloud infrastructure. The resume data can be accessed using the Amazon API Gateway endpoint.
 ## Architectural Diagram
-https://lucid.app/publicSegments/view/87b0bfa9-5ddf-4b62-a643-49314dcf89c7/image.png
+![cloud resume architectural diagram](https://github.com/user-attachments/assets/40d16602-18a7-4b54-9b75-f2472bc8e15e)
 
 ## Serverless Logic
 - Amazon API Gateway routes requests to the AWS lambda function. An IAM policy is attached to the API Gateway to allow invocation of the Function. The API Gateway exposes the HTTPS endpoint, and an API call (HTTPS request)made to the endpoint initiates the Lambda Function.
