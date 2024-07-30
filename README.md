@@ -22,10 +22,13 @@ The project involves building and deploying an AWS serverless API using AWS Lamb
   - The DynamoDB is created manually and then the data is uploaded using GitHub actions. This ensures that the database is automatically              updated in case of any changes in the resume. 
 ###  4. Deploy REST API
   - API Gateway  is managed by the Terraform configuration set. Any updates are applied through the Terraform Cloud.
-## API Endpoint 
+## API Endpoint
+```
+https://d3ad7vp77b.execute-api.us-west-2.amazonaws.com/dev-stage/
+```
 ## Blog Post
 See my [Blog Post](https://dev.to/sylvia_waweru_974612725da/cloud-resume-api-challenge-25g6) on the Cloud Resume API Challenge.
-## Cloud Resume API Challege
+## Cloud Resume API Challenge
 This repository is my participation in the  [Cloud Resume API Challenge](https://cloudresumeapi.dev/aws/) by [Rishab Kumar](https://github.com/rishabkumar7) and [REXTECH community](https://x.com/REXTECH_/status/1810292176410308726).
 ### Follow me on [Linkedin](https://www.linkedin.com/in/sylviawaweru/)
 
