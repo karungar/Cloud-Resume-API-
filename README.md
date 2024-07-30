@@ -15,7 +15,7 @@ The project involves building and deploying an AWS serverless API using AWS Lamb
   - Configure your infrastructure using Terraform and define your resources on the main.tf file.
 ###  2. Terraform Cloud
   - Configure the terraform workspace with your AWS account Credentials and variables
-  - The Terrafom Cloud automatically manages the Terraform state file and triggers deployment of your infrastructure.
+  - The Terraform Cloud automatically manages the Terraform state file and triggers deployment of your infrastructure.
   - When connected to the GitHub repository, Terraform Cloud monitors any changes 
     and triggers runs to apply the changes to the Terraform configurations.
 ###  3. DynamoDB Table
@@ -24,6 +24,10 @@ The project involves building and deploying an AWS serverless API using AWS Lamb
   - API Gateway  is managed by the Terraform configuration set. Any updates are applied through the Terraform Cloud.
 ## API Endpoint 
 ## Blog Post
+See my [Blog Post](https://dev.to/sylvia_waweru_974612725da/cloud-resume-api-challenge-25g6) on the Cloud Resume API Challenge.
+## Cloud Resume API Challege
+This repository is my participation in the  [Cloud Resume API Challenge](https://cloudresumeapi.dev/aws/) by [Rishab Kumar](https://github.com/rishabkumar7) and [REXTECH community](https://x.com/REXTECH_/status/1810292176410308726).
+### Follow me on [Linkedin](https://www.linkedin.com/in/sylviawaweru/)
 
 
 
