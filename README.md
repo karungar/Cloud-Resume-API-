@@ -35,6 +35,3 @@ This repository is my participation in the  [Cloud Resume API Challenge](https:/
 
 
 
-
-
-"# cloud-resume-demo" 
